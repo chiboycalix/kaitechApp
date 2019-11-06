@@ -1,0 +1,31 @@
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    background: white;
+}
+.header-wrapper h2{
+   margin-top: .6rem;
+   margin-left: 5rem;
+   cursor: pointer;
+}
+.header-wrapper h2 span{
+    color: #4FCDF5;  
+ }
+
+.header-navlinks ul{
+    list-style: none;
+}
+.header-navlinks ul li{
+    float: left;
+}
+.header-navlinks ul li a{
+    text-decoration: none;
+    padding: 1rem;
+    text-transform: uppercase;
+    color: #3E455E;   
+}
+.header-navlinks ul li a:hover{
+    color: #4FCDF5;   
+}
+
