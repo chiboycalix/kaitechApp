@@ -7,7 +7,7 @@ import ApodList from '../PhotoList';
     return (
         <div className="home-wrapper">
             <div className="home-showcase">
-                <h2>Your Astronomy Picture of the Day</h2>
+                <h2>Your Random Picture of the Day</h2>
             </div>
             <div className="content">
                 <ApodList />
