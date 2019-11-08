@@ -11,6 +11,8 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+
 
 const store = createStore(
     rootReducer,

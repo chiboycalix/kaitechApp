@@ -1,5 +1,22 @@
 .photo-wrapper{
     cursor: pointer;
     height: 20rem;
-    background: white;
+    background-color: white;
+    transition: height .5s cubic-bezier(.09,.82,1,.31), background-color .5s ease-in;
+    -webkit-transition: height .5s cubic-bezier(.09,.82,1,.31), background-color .5s ease-in;
+    -moz-transition: height .5s cubic-bezier(.09,.82,1,.31), background-color .5s ease-in;
+    -ms-transition: height .5s cubic-bezier(.09,.82,1,.31), background-color .5s ease-in;
+    -o-transition: height .5s cubic-bezier(.09,.82,1,.31), background-color .5s ease-in;
 }
+.photo-wrapper:hover{
+    height: 21rem;
+    background-color: rgb(222, 242, 250);
+}
+
+.photo-title{
+    padding: 1rem;
+}
+img{
+    width: 100%;
+}
+

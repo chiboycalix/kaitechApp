@@ -4,3 +4,14 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 5rem;
 }
+.wrapper{
+
+    text-align: center;
+}
+input{
+    width: 50%;
+    height: 30px;
+    outline: none;
+    font-size: 15px;
+    padding: 5px;
+}
