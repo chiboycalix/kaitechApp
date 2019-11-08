@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './Home.css';
 
 import ApodList from '../PhotoList';
@@ -7,7 +8,7 @@ import ApodList from '../PhotoList';
     return (
         <div className="home-wrapper">
             <div className="home-showcase">
-                <h2>Your Random Picture of the Day</h2>
+                <h2>Your Random Pictures of the Day</h2>
             </div>
             <div className="content">
                 <ApodList />
