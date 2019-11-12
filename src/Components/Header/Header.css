@@ -18,10 +18,12 @@
 }
 .header-navlinks ul li{
     float: left;
+    margin-top: 1rem;
 }
 .header-navlinks ul li a{
     text-decoration: none;
     padding: 1rem;
+   
     text-transform: uppercase;
     color: #3E455E;   
 }
