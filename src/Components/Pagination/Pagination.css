@@ -1,0 +1,21 @@
+ul.paginate{
+    list-style: none;
+}
+ul.paginate li{
+    float: left;
+    padding: 5rem 1rem;
+}
+ul.paginate li a{
+    text-decoration: none;
+    color: black;
+    padding: .5rem 1rem;
+}
+.active, ul.paginate li a:hover{
+    text-decoration: none;
+    color: white;
+    background: #4FCDF5;
+    padding: .5rem 1rem;
+}
+/* #test{
+    background: red;
+} */

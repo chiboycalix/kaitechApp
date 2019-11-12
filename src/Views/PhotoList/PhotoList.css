@@ -5,7 +5,6 @@
     grid-gap: 5rem;
 }
 .wrapper{
-
     text-align: center;
 }
 input{
@@ -14,4 +13,11 @@ input{
     outline: none;
     font-size: 15px;
     padding: 5px;
+}
+.loader{
+    transform: translateX(200%);
+    -webkit-transform: translateX(200%);
+    -moz-transform: translateX(200%);
+    -ms-transform: translateX(200%);
+    -o-transform: translateX(200%);
 }
